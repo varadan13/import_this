@@ -1,14 +1,9 @@
 ---
-title: ""
-tags: ""
----
-
-* * *
-
 toc: true
 layout: post
 description: Collection of metaphors, quotes, poems, prose from my reading. 
 categories: [Metaphor Archive]
+---
 
 ## title: Archive of Metaphors and thoughts, March 2021
 
