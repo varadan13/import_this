@@ -34,3 +34,12 @@ for its kingdom of clear air?"
 "The  designs of the universe are  unknown to  us, but we  do know that to think with lucidity and to  act with fairness is to aid those de­signs  (which shall never be revealed to us)."   
 
 \->[Jorge Luis Borges](https://en.wikipedia.org/wiki/Jorge_Luis_Borges), [A Prayer](https://www.goodreads.com/en/book/show/17720.In_Praise_of_Darkness).
+
+"Passion, after all, comes from the Latin for suffering."  
+
+\->[The dispassionate developer](https://blog.ploeh.dk/2021/03/22/the-dispassionate-developer/?utm_source=tldrnewsletter) by Mark Seeman
+
+"26 Years In The Deepest Darkest Jungle And Still I Became My Father"
+
+\->Robin Williams in Jumanji
+
