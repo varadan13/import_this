@@ -5,8 +5,6 @@ description: Collection of metaphors, quotes, poems, prose from my reading.
 title: Archive of Metaphors and thoughts, March 2021  
 categories: [Metaphor Archive]
 ---
-# Archive of Metaphors and thoughts, March 2021
-
 I love metaphors and surreal thoughts because I believe they are like mathematics highly capable of telling so many things in a sentence or two. I will maintain this archive as long as I find time to read some of my favourite authors and poets. 
 
 ## From Poems
