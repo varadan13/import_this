@@ -6,6 +6,8 @@ categories: [Metaphor Archive]
 ---
 I love metaphors and surreal thoughts because I believe they are like mathematics highly capable of telling so many things in a sentence or two. I will maintain this archive as long as I find time to read some of my favourite authors and poets. 
 
+---
+
 "Tell me, is the rose naked  
 or is that her only dress?"  
 
