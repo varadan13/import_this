@@ -51,3 +51,14 @@ Far from the childhood of rivers"
 "26 Years In The Deepest Darkest Jungle And Still I Became My Father"
 > Robin Williams in Jumanji
 
+"Where some people have a self, most people have a void, because they are too busy in wasting their vital creative energy to project themselves as this or that… actualizing a concept of what they should be like rather than actualizing their potentiality as a human being"      
+
+"when it comes to observing faults in others, most of us are are quick to react with condemnation. But what about looking inwardly for a change? To personally examine who we really are and what we are, our merits as well as our faults — in short, to see oneself as [one] is for once and to take responsibility [for] oneself."   
+
+"I am happy because I am daily growing and honestly not knowing where the limit will yet lie."   
+
+"I don’t believe in the manipulation game of creating a self image robot."   
+> Bruce Lee
+
+
+
