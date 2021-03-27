@@ -24,8 +24,10 @@ who never touched my blood?"
 "And who asked spring time  
 for its kingdom of clear air?" 
 
+
 "Why do all silkworms live so raggedly?"
 > [Pablo Nerudo](https://en.wikipedia.org/wiki/Pablo_Neruda), Book of Questions   
+
 
 "I never hear the word "escape"   
 Without a quicker blood,  
@@ -33,23 +35,46 @@ A sudden expectation,
 A flying attItude'" 
 >[Emily Dickinson](https://en.wikipedia.org/wiki/Emily_Dickinson)
 
+
 "Nameless I came among olives of algae,   
 Foetus of plankton, I remember nothing."  
-
 
 "Like gommiers loosened from Guinea,  
 Far from the childhood of rivers"
 >[Derek Walcott](https://en.wikipedia.org/wiki/Derek_Walcott), Origins
 
 
+Close is what we almost always are: close to happiness,      
+close to another, close to leaving, close to tears,       
+close to God, close to losing faith, close to being done,       
+close to saying something, or close to success,          
+and even, with the greatest sense of satisfaction,         
+close to giving the whole thing up.    
+
+Our human essence lies not in arrival,       
+but in being almost there,       
+we are creatures who are on the way,      
+our journey a series of impending anticipated arrivals.      
+**We live by unconsciously measuring the inverse distances of our proximity:**         
+an intimacy calibrated by the vulnerability we feel in giving up our sense of separation.   
+> [David Wyte](https://en.wikipedia.org/wiki/David_Whyte_(poet)), [Close](https://www.goodreads.com/book/show/24108839-consolations)
+
+
+Proximity a music video inspired by David Wyte's Close    
+{% youtube https://www.youtube.com/watch?v=c8t-eVQiARg %}    
+
+
 "The  designs of the universe are  unknown to  us, but we  do know that to think with lucidity and to  act with fairness is to aid those de­signs  (which shall never be revealed to us)."   
 > [Jorge Luis Borges](https://en.wikipedia.org/wiki/Jorge_Luis_Borges), [A Prayer](https://www.goodreads.com/en/book/show/17720.In_Praise_of_Darkness).
+
 
 "Passion, after all, comes from the Latin for suffering."  
 > [The dispassionate developer](https://blog.ploeh.dk/2021/03/22/the-dispassionate-developer/?utm_source=tldrnewsletter) by Mark Seeman
 
+
 "26 Years In The Deepest Darkest Jungle And Still I Became My Father"
 > Robin Williams in Jumanji
+
 
 "Where some people have a self, most people have a void, because they are too busy in wasting their vital creative energy to project themselves as this or that… actualizing a concept of what they should be like rather than actualizing their potentiality as a human being"      
 
@@ -61,4 +86,11 @@ Far from the childhood of rivers"
 > Bruce Lee
 
 
+"whoever has learned how to listen to trees no longer wants to be a tree [but] wants to be nothing except what he is."
+> Hermann Hesse
 
+
+"mycelium of inspiration"
+
+"When I am sad, I like to imagine myself becoming a tree. Branches that bend without breaking, fractal with possibility, reaching resolutely toward the light. Roots touching the web of belonging beneath the surface of the world, that majestic mycelial network succoring and nurturing and connecting tree to tree — connection so effortless, so imperturbable, so free from the fragility of human relationships."
+> [Maria Papova, Brain Pickings](https://www.brainpickings.org/2021/03/10/proximity/)
