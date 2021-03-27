@@ -60,10 +60,6 @@ an intimacy calibrated by the vulnerability we feel in giving up our sense of se
 > [David Wyte](https://en.wikipedia.org/wiki/David_Whyte_(poet)), [Close](https://www.goodreads.com/book/show/24108839-consolations)
 
 
-Proximity a music video inspired by David Wyte's Close    
-{% youtube https://www.youtube.com/watch?v=c8t-eVQiARg %}    
-
-
 "The  designs of the universe are  unknown to  us, but we  do know that to think with lucidity and to  act with fairness is to aid those de­signs  (which shall never be revealed to us)."   
 > [Jorge Luis Borges](https://en.wikipedia.org/wiki/Jorge_Luis_Borges), [A Prayer](https://www.goodreads.com/en/book/show/17720.In_Praise_of_Darkness).
 
