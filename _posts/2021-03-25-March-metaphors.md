@@ -94,3 +94,7 @@ Inspired by David Whyte's close a video titled 'Proximity'.
 
 "When I am sad, I like to imagine myself becoming a tree. Branches that bend without breaking, fractal with possibility, reaching resolutely toward the light. Roots touching the web of belonging beneath the surface of the world, that majestic mycelial network succoring and nurturing and connecting tree to tree — connection so effortless, so imperturbable, so free from the fragility of human relationships."
 > [Maria Papova, Brain Pickings](https://www.brainpickings.org/2021/03/10/proximity/)
+
+What do I see in this picture?
+![image](https://1.bp.blogspot.com/-40heeBmTMpY/YF6oAMhpSEI/AAAAAAAAA-k/lCXRL5ucdqsuCCxemrAF_b1rlavS6skzQCLcBGAsYHQ/s16000/Giant_by_MariaPopova.jpg)
+> The image is titled "Perspective" taken by Maria Papova
