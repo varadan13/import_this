@@ -58,6 +58,9 @@ our journey a series of impending anticipated arrivals.
 **We live by unconsciously measuring the inverse distances of our proximity:**         
 an intimacy calibrated by the vulnerability we feel in giving up our sense of separation.   
 > [David Wyte](https://en.wikipedia.org/wiki/David_Whyte_(poet)), [Close](https://www.goodreads.com/book/show/24108839-consolations)
+ 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c8t-eVQiARg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 "The  designs of the universe are  unknown to  us, but we  do know that to think with lucidity and to  act with fairness is to aid those de­signs  (which shall never be revealed to us)."   
