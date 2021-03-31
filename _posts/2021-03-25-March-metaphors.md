@@ -1,12 +1,10 @@
 ---
 layout: post
-description: Collection of metaphors, quotes, poems, prose from my reading. 
-title: Archive of Metaphors and thoughts, March 2021  
-categories: [Metaphor Archive]
+description: Collection of metaphors, quotes, poems, prose that I try to think about every morning.   
+title: March 2021, Meditations  
+categories: [Meditations]
 ---
-I love metaphors and surreal thoughts because I believe they are like mathematics highly capable of telling so many things in a sentence or two. I will maintain this archive as long as I find time to read some of my favourite authors and poets. 
 
----
 
 "Tell me, is the rose naked  
 or is that her only dress?"  
@@ -24,7 +22,6 @@ who never touched my blood?"
 "And who asked spring time  
 for its kingdom of clear air?" 
 
-
 "Why do all silkworms live so raggedly?"
 > [Pablo Nerudo](https://en.wikipedia.org/wiki/Pablo_Neruda), Book of Questions   
 
@@ -34,14 +31,6 @@ Without a quicker blood,
 A sudden expectation,   
 A flying attItude'" 
 >[Emily Dickinson](https://en.wikipedia.org/wiki/Emily_Dickinson)
-
-
-"Nameless I came among olives of algae,   
-Foetus of plankton, I remember nothing."  
-
-"Like gommiers loosened from Guinea,  
-Far from the childhood of rivers"
->[Derek Walcott](https://en.wikipedia.org/wiki/Derek_Walcott), Origins
 
 
 Close is what we almost always are: close to happiness,      
@@ -97,4 +86,4 @@ Inspired by David Whyte's close a video titled 'Proximity'.
 
 What do I see in this picture?
 ![image](https://1.bp.blogspot.com/-40heeBmTMpY/YF6oAMhpSEI/AAAAAAAAA-k/lCXRL5ucdqsuCCxemrAF_b1rlavS6skzQCLcBGAsYHQ/s16000/Giant_by_MariaPopova.jpg)
-> The image is titled "Perspective" taken by Maria Papova
+> "Perspective" by Maria Papova
