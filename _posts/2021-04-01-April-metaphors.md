@@ -25,4 +25,7 @@ So let's take a ride and see what's mine
 > [Iggy Pop](https://en.wikipedia.org/wiki/Iggy_Pop), [The Passenger](https://www.youtube.com/watch?v=-fWw7FE9tTo)
 
 "Someone has a great fire in his soul and nobody ever comes to warm themselves at it, and passers-by see nothing but a little smoke at the top of the chimney"
-> [Vincent Van Gogh]
+> Vincent Van Gogh
+
+"we're looking for a junior developer with the experience of a senior developer for the salary of an intern"   
+> A random post in LinkedIn.
