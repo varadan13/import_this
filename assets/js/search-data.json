@@ -2,7 +2,7 @@
   
     
         "post0": {
-            "title": "python executes class body at definition time",
+            "title": "Python executes class body at definition time",
             "content": "class foo: print(&quot;hello batman&quot;) . hello batman . def foo_func(): print(&quot;hello batman&quot;) . foo_func() . hello batman . While executing class body, python evaluates various expressions** inside the class body and stores it in the local name space. | This is done because that namespace then forms the class attributes. | Class bodies are not the only such namespaces; set and dict comprehensions, and in Python 3, list comprehensions are also executed with a separate namespace, scoping their locals. | . ** These expressions could be anything that we write inside the class body such as class variable, instance variable, methods etc . Why does python behave differently for functions? . Basically it fetches the instructions in the definition and stores it to the global variable(if the function is defined in the global scope) taking the value equal to its name. .",
             "url": "https://varadan13.github.io/import_this/python_notes/2021/04/06/pythonnotes1.html",
             "relUrl": "/python_notes/2021/04/06/pythonnotes1.html",
