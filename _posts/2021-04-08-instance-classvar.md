@@ -1,9 +1,8 @@
 ---
-title: ""
-tags: ""
+layout: post
+categories: [Python_Notes]
+title: Instance and class variable notes.
 ---
-
-# Instance and class variable
 
 ## Instance Variable
 
