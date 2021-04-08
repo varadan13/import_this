@@ -1,0 +1,38 @@
+<h1 id="instance-and-class-variable">Instance and class variable</h1>
+
+<h2 id="instance-variable">Instance Variable</h2>
+
+<ul>
+  <li>Instance variables are owned by instances of the class.</li>
+  <li>This means that for each object or instance of a class, the instance variables are different.</li>
+  <li>
+    <p>Unlike class variables, instance variables are defined within methods.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class Potterhead(object):
+  def __init__(self,movie):
+    self.movie = movie #instance variable
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="class-variable">Class Variable</h2>
+
+<ul>
+  <li>Class variables are defined within the class construction.</li>
+  <li>
+    <p>Because they are owned by the class itself, class variables are shared by all instances of the class.</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class PotterHead(object):
+  hero="Dumbeldore"  # class variable
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h2 id="different-ways-to-access-instance-variable-in-python">Different ways to access Instance Variable in Python</h2>
+
+<p>There are two ways to access the instance variable of class:</p>
+
+<ul>
+  <li>Within the class by using self and object reference.</li>
+  <li>Using getattr() method</li>
+</ul>
