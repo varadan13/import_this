@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Basic Git Notes. | @ aneesh_varadan</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Basic Git Notes." />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Configuring username and email in git" />
+<meta property="og:description" content="Configuring username and email in git" />
+<link rel="canonical" href="https://varadan13.github.io/import_this/git%20github%20notes/2021/04/09/git-notes-basic.html" />
+<meta property="og:url" content="https://varadan13.github.io/import_this/git%20github%20notes/2021/04/09/git-notes-basic.html" />
+<meta property="og:site_name" content="@ aneesh_varadan" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-04-09T00:00:00-05:00" />
+<script type="application/ld+json">
+{"url":"https://varadan13.github.io/import_this/git%20github%20notes/2021/04/09/git-notes-basic.html","@type":"BlogPosting","headline":"Basic Git Notes.","dateModified":"2021-04-09T00:00:00-05:00","datePublished":"2021-04-09T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://varadan13.github.io/import_this/git%20github%20notes/2021/04/09/git-notes-basic.html"},"description":"Configuring username and email in git","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/import_this/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://varadan13.github.io/import_this/feed.xml" title="@ aneesh_varadan" /><link rel="shortcut icon" type="image/x-icon" href="/import_this/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/import_this/">@ aneesh_varadan</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/import_this/about/">About Me</a><a class="page-link" href="/import_this/search/">Search</a><a class="page-link" href="/import_this/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Basic Git Notes.</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-04-09T00:00:00-05:00" itemprop="datePublished">
+        Apr 9, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      3 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/import_this/categories/#Git Github Notes">Git Github Notes</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Configuring username and email in git</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git config --global user.name "varadan"
+    git config --global user.email "varadan_pornhub@nic.in"
+</code></pre></div></div>
+
+<p>To list all the git settings</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git config --list
+</code></pre></div></div>
+
+<p>To get a specific setting.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git config user.name #for viewing user_name
+    git config user.email
+</code></pre></div></div>
+
+<p>To get help.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git help #git will list all the options adjoining 
+             #help and also lists most common commands
+             #for which help can be used with.
+    
+    #for example
+    
+    git help commit
+</code></pre></div></div>
+
+<p>Some system commands that will help in navigating the file system</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    cd ~ #changes the directory to the system home directory
+    cd .. #changes the directory one step backwards the node
+    pwd #lists the current working directory
+    ls #lists all the files and directories in the cwd.
+    
+    clear #this clears the console
+</code></pre></div></div>
+
+<p>To intialise a git repository.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    pwd #displays the current working directory of git
+    
+    cd &lt;path_to_the_directory_git_should_work_in&gt;
+    
+    git init #intializes a git repository in the current working directory
+</code></pre></div></div>
+
+<p>To commit a change to the git repository</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git add .
+    git commit -m "a commit message" #commit is like save the state of the 
+                                     #repository at this point in time.
+</code></pre></div></div>
+
+<p>How to view the commit history.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git log
+    git log --author="a author of this repository"
+</code></pre></div></div>
+
+<p>To view the current state of the repository.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git status #displays any changes that needs to added to the repository or not.
+</code></pre></div></div>
+
+<p>To View the modifications</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git diff #differences in the working copy and the repository copy.
+</code></pre></div></div>
+
+<p>What is a working copy?<br />
+The files we make constant edits before commiting to git is called working copy.</p>
+
+<p>What is a repository copy?<br />
+When we commit a file to git, git makes a copy of that file and keeps that copy with it this is called repository copy.</p>
+
+<p>If a file let’s say random.txt is changed and added to the staging area,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git diff #shows no differences as this file now is in the staging area
+             #diff only shows differences in the working copy and the repository
+             #copy
+
+
+    git diff --staged #this command will show differences in the files 
+                      #repository and the staging area
+</code></pre></div></div>
+
+<p>To remove a file from working area.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git rm &lt;name_of_the_file&gt;
+    
+    git commit -m "a message"
+</code></pre></div></div>
+
+<p>To rename a file.</p>
+
+<p>Method 1</p>
+
+<p>Add a new file then delete the old file == renaming the old file</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git add &lt;a_new_file_name&gt;
+    git rm &lt;a_old_file_name&gt;
+    
+    git commit -m "a commit message"
+</code></pre></div></div>
+
+<p>Method 2</p>
+
+<p>Renaming a file.<br />
+In Git renaming a file == moving a file to a new file in the same location</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git mv &lt;name_of_the_old_file&gt; &lt;name_of_the_new_file&gt;
+    git commit -m "commit message"
+</code></pre></div></div>
+
+<p>Moving a file in Git</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git mv &lt;name_of_the_old_file&gt; &lt;file_destination\name_of_the_new_File&gt;
+    git commit -m "commit message"
+</code></pre></div></div>
+
+<p>To add and commit in one go</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git commit -am "a commit message"
+</code></pre></div></div>
+
+<p>Git checkout</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git checkout -- &lt;name of the file&gt; #checkout is a way to tell
+                                       #git to take the &lt;name of the file&gt; file
+                                       #from the repository
+                                       #and put that in the working area.
+                                       #What does -- mean?
+                                       #it tells git that the name given to checkout 
+                                       #is not a branch
+                                       #note:- a space is present after --.
+    git commit -m "message"
+</code></pre></div></div>
+
+<p>Unstaging a file.</p>
+
+<p>What is unstaging?<br />
+it is to tell to git to remove a file from the staging area.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git reset HEAD &lt;name of the file to remove from staging area&gt;
+</code></pre></div></div>
+
+<p>To get old version of the project.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git checkout &lt;first few charachters of commit number&gt; -- &lt;name of the file&gt;
+    git commit -m "a commit message"
+</code></pre></div></div>
+
+  </div><a class="u-url" href="/import_this/git%20github%20notes/2021/04/09/git-notes-basic.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/import_this/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/import_this/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/import_this/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>A space to teach what I learn and share my journey.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/varadan13" title="varadan13"><svg class="svg-icon grey"><use xlink:href="/import_this/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://www.linkedin.com/in/aneeshdata" title="aneeshdata"><svg class="svg-icon grey"><use xlink:href="/import_this/assets/minima-social-icons.svg#linkedin"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
