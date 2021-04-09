@@ -1,7 +1,9 @@
 ---
-title: ""
-tags: ""
+layout: post
+categories: [Git Github Notes]
+title: Basic Git Notes.
 ---
+
 
 Configuring username and email in git    
 
