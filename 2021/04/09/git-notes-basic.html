@@ -1,0 +1,152 @@
+<p>Configuring username and email in git</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git config --global user.name "varadan"
+    git config --global user.email "varadan_pornhub@nic.in"
+</code></pre></div></div>
+
+<p>To list all the git settings</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git config --list
+</code></pre></div></div>
+
+<p>To get a specific setting.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git config user.name #for viewing user_name
+    git config user.email
+</code></pre></div></div>
+
+<p>To get help.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git help #git will list all the options adjoining 
+             #help and also lists most common commands
+             #for which help can be used with.
+    
+    #for example
+    
+    git help commit
+</code></pre></div></div>
+
+<p>Some system commands that will help in navigating the file system</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    cd ~ #changes the directory to the system home directory
+    cd .. #changes the directory one step backwards the node
+    pwd #lists the current working directory
+    ls #lists all the files and directories in the cwd.
+    
+    clear #this clears the console
+</code></pre></div></div>
+
+<p>To intialise a git repository.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    pwd #displays the current working directory of git
+    
+    cd &lt;path_to_the_directory_git_should_work_in&gt;
+    
+    git init #intializes a git repository in the current working directory
+</code></pre></div></div>
+
+<p>To commit a change to the git repository</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git add .
+    git commit -m "a commit message" #commit is like save the state of the 
+                                     #repository at this point in time.
+</code></pre></div></div>
+
+<p>How to view the commit history.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git log
+    git log --author="a author of this repository"
+</code></pre></div></div>
+
+<p>To view the current state of the repository.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git status #displays any changes that needs to added to the repository or not.
+</code></pre></div></div>
+
+<p>To View the modifications</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git diff #differences in the working copy and the repository copy.
+</code></pre></div></div>
+
+<p>What is a working copy?<br />
+The files we make constant edits before commiting to git is called working copy.</p>
+
+<p>What is a repository copy?<br />
+When we commit a file to git, git makes a copy of that file and keeps that copy with it this is called repository copy.</p>
+
+<p>If a file let’s say random.txt is changed and added to the staging area,</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git diff #shows no differences as this file now is in the staging area
+             #diff only shows differences in the working copy and the repository
+             #copy
+
+
+    git diff --staged #this command will show differences in the files 
+                      #repository and the staging area
+</code></pre></div></div>
+
+<p>To remove a file from working area.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git rm &lt;name_of_the_file&gt;
+    
+    git commit -m "a message"
+</code></pre></div></div>
+
+<p>To rename a file.</p>
+
+<p>Method 1</p>
+
+<p>Add a new file then delete the old file == renaming the old file</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git add &lt;a_new_file_name&gt;
+    git rm &lt;a_old_file_name&gt;
+    
+    git commit -m "a commit message"
+</code></pre></div></div>
+
+<p>Method 2</p>
+
+<p>Renaming a file.<br />
+In Git renaming a file == moving a file to a new file in the same location</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git mv &lt;name_of_the_old_file&gt; &lt;name_of_the_new_file&gt;
+    git commit -m "commit message"
+</code></pre></div></div>
+
+<p>Moving a file in Git</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git mv &lt;name_of_the_old_file&gt; &lt;file_destination\name_of_the_new_File&gt;
+    git commit -m "commit message"
+</code></pre></div></div>
+
+<p>To add and commit in one go</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git commit -am "a commit message"
+</code></pre></div></div>
+
+<p>Git checkout</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git checkout -- &lt;name of the file&gt; #checkout is a way to tell
+                                       #git to take the &lt;name of the file&gt; file
+                                       #from the repository
+                                       #and put that in the working area.
+                                       #What does -- mean?
+                                       #it tells git that the name given to checkout 
+                                       #is not a branch
+                                       #note:- a space is present after --.
+    git commit -m "message"
+</code></pre></div></div>
+
+<p>Unstaging a file.</p>
+
+<p>What is unstaging?<br />
+it is to tell to git to remove a file from the staging area.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git reset HEAD &lt;name of the file to remove from staging area&gt;
+</code></pre></div></div>
+
+<p>To get old version of the project.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    git checkout &lt;first few charachters of commit number&gt; -- &lt;name of the file&gt;
+    git commit -m "a commit message"
+</code></pre></div></div>
