@@ -4,17 +4,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>@ aneesh_varadan | A space to teach what I learn and share my journey.</title>
+<title>Python dict short notes | @ aneesh_varadan</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="@ aneesh_varadan" />
+<meta property="og:title" content="Python dict short notes" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A space to teach what I learn and share my journey." />
-<meta property="og:description" content="A space to teach what I learn and share my journey." />
-<link rel="canonical" href="https://varadan13.github.io/import_this/" />
-<meta property="og:url" content="https://varadan13.github.io/import_this/" />
+<meta name="description" content="Short notes from the book Fluent Python" />
+<meta property="og:description" content="Short notes from the book Fluent Python" />
+<link rel="canonical" href="https://varadan13.github.io/import_this/python_notes/2021/04/18/pyt-dict-shortnotes.html" />
+<meta property="og:url" content="https://varadan13.github.io/import_this/python_notes/2021/04/18/pyt-dict-shortnotes.html" />
 <meta property="og:site_name" content="@ aneesh_varadan" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-04-18T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"https://varadan13.github.io/import_this/","@type":"WebSite","headline":"@ aneesh_varadan","name":"@ aneesh_varadan","description":"A space to teach what I learn and share my journey.","@context":"https://schema.org"}</script>
+{"url":"https://varadan13.github.io/import_this/python_notes/2021/04/18/pyt-dict-shortnotes.html","@type":"BlogPosting","headline":"Python dict short notes","dateModified":"2021-04-18T00:00:00-05:00","datePublished":"2021-04-18T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://varadan13.github.io/import_this/python_notes/2021/04/18/pyt-dict-shortnotes.html"},"description":"Short notes from the book Fluent Python","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/import_this/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://varadan13.github.io/import_this/feed.xml" title="@ aneesh_varadan" /><link rel="shortcut icon" type="image/x-icon" href="/import_this/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
@@ -82,137 +84,110 @@ window.onload = wrap_img;
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><h1 id="posts">Posts</h1>
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Python dict short notes</h1><p class="page-description">Short notes from the book Fluent Python</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-04-18T00:00:00-05:00" itemprop="datePublished">
+        Apr 18, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      2 min read
+    
+</span></p>
 
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/import_this/categories/#Python_Notes">Python_Notes</a>
+        
+      
+      </p>
+    
 
-  
+    </header>
 
-  <!-- Hide posts if front matter flag hide:true -->
-  
-  
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>On hashable objects</p>
 
-  <!-- Sort posts by rank, then date -->
-  
-  
-  
+<ul>
+  <li>
+    <p>An object is hashable if it has a hash value which never changes during its lifetime (it needs a <strong>hash</strong>() method), and can be compared to other objects (it needs an__eq__() method).</p>
+  </li>
+  <li>
+    <p>Python Glossary states: “All of Python’s immutable built-in objects are hashable” but that is inaccurate because a tuple is immutable, yet it may contain references to unhashable objects.</p>
+  </li>
+  <li>
+    <p>If  you  implement  a  class  with  a  custom  <strong>eq</strong>  method  then  you must  also  implement  a  suitable  <strong>hash</strong>,  because  you  must  always make  sure  that  if  a  ==  b  is  True  then  hash(a)  ==  hash(b)  is  also True.  Otherwise  you  are  breaking  an  invariant  of  the  hash  table algorithm,  with  the  grave  consequence  that  dicts  and  sets  will  not deal  reliably  with  your  objects.  If  a  custom  <strong>eq</strong>  depends  on  mutable  state,  then  <strong>hash</strong>  must  raise  TypeError  with  a  message  like unhashable  type:  ‘MyClass’.</p>
+  </li>
+</ul>
 
- 
-  
+<p>On how python mapping objects deals with missing values</p>
 
-   <!-- Assemble final sorted posts array -->
-  
-  <ul class="post-list"><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
-        <h3>
-          <a class="post-link" href="/import_this/python_notes/2021/04/18/pyt-dict-shortnotes.html">
-            Python dict short notes
-          </a>
-        </h3>
-        <p class="post-meta-description">Short notes from the book Fluent Python</p>
-          <p class="post-meta">Apr 18, 2021</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
-        <h3>
-          <a class="post-link" href="/import_this/python_notes/2021/04/18/PytDict.html">
-            Python Dictionary
-          </a>
-        </h3>
-        <p class="post-meta-description"></p>
-          <p class="post-meta">Apr 18, 2021</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
-        <h3>
-          <a class="post-link" href="/import_this/linear%20algebra%20tutorial/2021/04/17/intprtPRC.html">
-            Interpretation of Partial regression coefficients.
-          </a>
-        </h3>
-        <p class="post-meta-description"></p>
-          <p class="post-meta">Apr 17, 2021</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
-        <h3>
-          <a class="post-link" href="/import_this/python_notes/2021/04/17/_04_16_LRCH1.html">
-            LIST, TUPLES AND NAMED TUPLES
-          </a>
-        </h3>
-        <p class="post-meta-description">Code Snippets from chapter two of Luciano Ramalho's Fluent Python.</p>
-          <p class="post-meta">Apr 17, 2021</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
-        <h3>
-          <a class="post-link" href="/import_this/linear%20algebra%20tutorial/2021/04/16/dummy-var.html">
-            Dummy Variable Regression
-          </a>
-        </h3>
-        <p class="post-meta-description"></p>
-          <p class="post-meta">Apr 16, 2021</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
-        <h3>
-          <a class="post-link" href="/import_this/linear%20algebra%20tutorial/2021/04/10/PCArefresher.html">
-            Please have a PCA refresher
-          </a>
-        </h3>
-        <p class="post-meta-description"></p>
-          <p class="post-meta">Apr 10, 2021</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
-        <h3>
-          <a class="post-link" href="/import_this/git%20github%20notes/2021/04/09/git-notes-basic.html">
-            Basic Git Notes.
-          </a>
-        </h3>
-        <p class="post-meta-description"></p>
-          <p class="post-meta">Apr 9, 2021</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
-        <h3>
-          <a class="post-link" href="/import_this/python_notes/2021/04/09/codesnippet-contextmanag.html">
-            Code Snippets to practise context managers and a quirky behaviour of functions
-          </a>
-        </h3>
-        <p class="post-meta-description"></p>
-          <p class="post-meta">Apr 9, 2021</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
-        <h3>
-          <a class="post-link" href="/import_this/python_notes/2021/04/08/instance-classvar.html">
-            Instance and class variable notes.
-          </a>
-        </h3>
-        <p class="post-meta-description"></p>
-          <p class="post-meta">Apr 8, 2021</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
-        <h3>
-          <a class="post-link" href="/import_this/python_notes/2021/04/06/pythonnotes1.html">
-            Python executes class body at definition time
-          </a>
-        </h3>
-        <p class="post-meta-description"></p>
-          <p class="post-meta">Apr 6, 2021</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
-        <h3>
-          <a class="post-link" href="/import_this/python_notes/2021/04/06/iterators-iterables.html">
-            Introduction to Iterators and Iterables in Python
-          </a>
-        </h3>
-        <p class="post-meta-description"></p>
-          <p class="post-meta">Apr 6, 2021</p>
-      </div>
-  </div></li><li><div class="Box box-shadow-medium rounded-1 col-12"><div class="col-8 d-table-cell p-3">
-        <h3>
-          <a class="post-link" href="/import_this/linear%20algebra%20tutorial/2021/03/26/EIGEN-VALUE.html">
-            Eigen values and Eigen vectors
-          </a>
-        </h3>
-        <p class="post-meta-description">Topics covered-Basics,Diagonalizing a square matrix, Spectral theorem, Positive definite matrix, SVD.</p>
-          <p class="post-meta">Mar 26, 2021</p>
-      </div>
-  </div></li></ul>
+<ul>
+  <li>
+    <p>Underlying method used to deal with missing keys is the aptly named  <strong>missing</strong> method. This method is not defined in the base  dict  class, but  dict  is aware of it: if you subclass  dict and provide a  <strong>missing</strong> method, the standard dict.<strong>getitem</strong> will call it whenever a key is not found, instead of raising  KeyError.</p>
+  </li>
+  <li>
+    <p>The  <strong>missing</strong>  method is just called by  <strong>getitem</strong>, i.e. for the d[k]  operator. The presence of a  <strong>missing</strong> method has no effect  on the behavior of other  methods  that  look  up  keys,  such  as  get or  <strong>contains</strong>  (which  implements  the  in  operator).</p>
+  </li>
+</ul>
 
-    </div>
+<p>On update method of dict</p>
+
+<ul>
+  <li>The way update handles its first argument  m is a prime example of  duck typing: it first checks whether  m  has a  keys  method and, if it does, assumes it is a mapping. Otherwise, update  falls back to iterating over  m, assuming its items are  (key, value)  pairs.</li>
+</ul>
+
+<p>Practical consequences of how dict works</p>
+
+<ul>
+  <li>
+    <p>Keys must be hashable objects</p>
+  </li>
+  <li>
+    <p>dicts have significant memory overhead</p>
+  </li>
+  <li>
+    <p>Key search is very fast</p>
+  </li>
+  <li>
+    <p>Key ordering depends on insertion order</p>
+  </li>
+  <li>
+    <p>Adding items to a dict may change the order of existing keys</p>
+  </li>
+</ul>
+
+<p>Practical consequences of how set works</p>
+
+<ul>
+  <li>
+    <p>Set elements must be hashable objects.</p>
+  </li>
+  <li>
+    <p>Sets have a significant memory overhead.</p>
+  </li>
+  <li>
+    <p>Membership testing is very efficient.</p>
+  </li>
+  <li>
+    <p>Element ordering depends on insertion order.</p>
+  </li>
+  <li>
+    <p>Adding elements to a set may change the order of other elements.</p>
+  </li>
+</ul>
+
+<p>On null set construction</p>
+
+<ul>
+  <li>Syntax quirk Don’t forget: to create an empty set, use the constructor  without an argument: set(). If you write {}, you’re creating an empty dict  — this  hasn’t  changed</li>
+</ul>
+
+  </div><a class="u-url" href="/import_this/python_notes/2021/04/18/pyt-dict-shortnotes.html" hidden></a>
+</article>
       </div>
     </main><footer class="site-footer h-card">
   <data class="u-url" href="/import_this/"></data>
