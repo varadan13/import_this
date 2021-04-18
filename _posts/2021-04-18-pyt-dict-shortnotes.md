@@ -1,6 +1,8 @@
 ---
-title: ""
-tags: []
+layout: post
+categories: [Python_Notes]
+description: "Short notes from the book Fluent Python"
+title: "Python dict short notes"
 ---
 
 On hashable objects
