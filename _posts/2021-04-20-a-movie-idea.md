@@ -1,6 +1,8 @@
 ---
-title: ""
-tags: []
+layout: post
+categories: [Movie Ideas]
+description: "some movie idea"
+title: "MI : 1"
 ---
 
 "Everyone is talking and nobody wants to listen cause its boring" How can I show this graphically? What stories can I tell using this point of view? I want to make a movie using this point of view. The movie must be a social character study. 
